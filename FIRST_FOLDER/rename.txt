@@ -1,0 +1,12 @@
+mv can be used to move folders and also rename folder
+touch name.txt
+mv name.txt rename.txt
+cp rename.txt copy.txt
+mkdir question
+cd question
+touch first.txt
+touch second.txt
+cd ..
+cp -r question question_copy
+rm -rf question
+rm -rf question_copy
